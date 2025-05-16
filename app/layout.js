@@ -10,9 +10,6 @@ export const metadata = {
   openGraph: {
     title: 'PlanMyTeam – Corporate Team Building Events',
     description: 'Engaging events for modern teams. Virtual, physical, and fully customized experiences.',
-        other: {
-      'google-site-verification': 'GogqIns8cMwe9ZlbNvyqFX5Ma6B0iOXbb029UAa80MM' // paste your full code here
-    },
     url: 'https://planmyteam.vercel.app',
     siteName: 'PlanMyTeam',
     images: [
@@ -28,6 +25,9 @@ export const metadata = {
   robots: {
     index: true,
     follow: true
+  },
+  other: {
+    'google-site-verification': 'GogqIns8cMwe9ZlbNvyqFX5Ma6B0iOXbb029UAa80MM'
   }
 };
 
